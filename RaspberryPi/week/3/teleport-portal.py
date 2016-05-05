@@ -29,6 +29,9 @@ teleport()
 # Handle the when_pressed button event
 button.when_pressed = teleport
 
+# Tell the user how to quit
+print "Press Ctrl-C to exit"
+
 while True:
     x = round(mc.player.getPos().x)
     y = round(mc.player.getPos().y)
